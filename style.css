@@ -17,7 +17,8 @@ footer{
   left:0;
 }
 .nav-link{
-  background-color: rgba(183, 185, 108, 0.63);
+  /*background-color: rgba(183, 185, 108, 0.63);*/
+  background-color: #A9C938;
 }
 li .nav-item{
   border:1px solid black !important;
