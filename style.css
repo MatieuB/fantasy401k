@@ -18,7 +18,11 @@ footer{
 }
 .nav-link{
   /*background-color: rgba(183, 185, 108, 0.63);*/
-  background-color: #A9C938;
+  /*background-color: #A9C938;*/
+  background: -moz-linear-gradient(top, rgba(143,200,0,1) 0%, rgba(143,200,0,0.57) 57%, rgba(143,200,0,0.57) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(143,200,0,1) 0%,rgba(143,200,0,0.57) 57%,rgba(143,200,0,0.57) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(143,200,0,1) 0%,rgba(143,200,0,0.57) 57%,rgba(143,200,0,0.57) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc800', endColorstr='#918fc800',GradientType=0 ); /* IE6-9 */
 }
 li .nav-item{
   border:1px solid black !important;
