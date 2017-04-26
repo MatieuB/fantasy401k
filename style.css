@@ -1,5 +1,6 @@
 #iconHome {
   padding-left: 3%;
+  color:white;
 }
 #homeContent {
   padding-top:7%;
@@ -12,17 +13,17 @@ footer{
   height:120px !important;
   background-color: #0B3954 !important;
   width:100%;
-  position:fixed;
+  /*position:fixed;*/
   bottom:0;
   left:0;
 }
 .nav-link{
   /*background-color: rgba(183, 185, 108, 0.63);*/
   /*background-color: #A9C938;*/
-  background: -moz-linear-gradient(top, rgba(143,200,0,1) 0%, rgba(143,200,0,0.57) 57%, rgba(143,200,0,0.57) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(143,200,0,1) 0%,rgba(143,200,0,0.57) 57%,rgba(143,200,0,0.57) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(143,200,0,1) 0%,rgba(143,200,0,0.57) 57%,rgba(143,200,0,0.57) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc800', endColorstr='#918fc800',GradientType=0 ); /* IE6-9 */
+  background: -moz-linear-gradient(top, rgba(143,200,0,1) 0%, rgb(29,121,14) 57%, rgb(29,121,14) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(143,200,0,1) 0%,rgb(29,121,14) 57%,rgb(29,121,14) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(143,200,0,1) 0%,rgb(29,121,14) 57%,rgb(29,121,14) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(29,121,14)', endColorstr='#918fc800',GradientType=0 ); /* IE6-9 */
 }
 li .nav-item{
   border:1px solid black !important;
@@ -31,4 +32,55 @@ li .nav-item{
   background-image: url('/assets/photos/dashboard.png');
   width:100%;
   height:130vh;
+}
+.description {
+  background-color: rgb(64, 108, 83) ;
+  height: 70px;
+  /*align-items: center;*/
+  display: flex;
+  justify-content: center;
+}
+.options {
+  /*border: 1px solid black;*/
+  background-color: rgb(64, 108, 83) ;
+  color:white;
+  height:100px;
+  margin:1%;
+
+}
+div .options {
+  margin: 1% auto;
+}
+.row img {
+
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  margin:3% auto;
+}
+.overlay {
+  /*z-index:20;*/
+  /*background-color: rgba(177, 162, 227, 0.77);*/
+  overflow-y:scroll;
+  with:250%;
+}
+.graphsContent {
+  margin-top:3%;
+  /*margin-left:1%;*/
+  /*padding-top:3%;*/
+  /*padding-left:1%;*/
+}
+.sideNav{
+  left:2%;
+}
+.graphView{
+  overflow-y: scroll;
+}
+.zngChart {
+  height:250px !important;
+  width:80%;
+  margin:0 auto;
+  border:1px solid black;
+}
+#navbarNav{
+  margin-top:auto;
 }
