@@ -21,7 +21,7 @@ angular.module('fantasy401k', ['ui.router', 'zingchart-angularjs']).config(funct
 
     })
     .state('graphs', {templateUrl: './partials/graphs.html'})
-    .state('graphs.profile', {
+    .state('graphs.balanced', {
         url: '/profile/base',
         //template: '<mb-report title={{info.title}} image={{info.image}} data={{info.data}} </mb-report>',
         templateUrl: './partials/graphs.base.html',
